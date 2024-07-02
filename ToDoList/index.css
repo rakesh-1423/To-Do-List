@@ -1,0 +1,47 @@
+
+.container{
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 20px;
+}
+#todo-list{
+  list-style-type: none;
+  padding:0px;
+}
+.input-btn{
+  width: 60px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  cursor:pointer;
+}
+.input-btn:hover{
+  background-color: #45a049;
+}
+#input-list{
+  height: 15px;
+  max-width: 250px;
+  border-radius: 5px;
+  padding:10px;
+}
+.todo-item{
+  max-width: 550px;
+  height: 35px;
+  padding: 15px 0px;
+  background-color: aliceblue;
+  border: 2px solid gainsboro;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.input-listbtn{
+  width: 100px;
+  padding: 0px;
+}
+.todo-item span{
+  margin: auto  30px;
+}
